@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+*.ipynb_checkpoints
+# ⚠️ NEVER commit model weights or datasets
+models/
+*.safetensors
+*.bin
+*.pt
